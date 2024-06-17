@@ -25,13 +25,14 @@
         "icon": "address"
       }
     ],
-    "links": [
+    "links": [ 
       {
-        "type": "GitHub",
-        "value": "https://github.com/SharmaTanushree",
-        "isHidden": true,
-        "icon": "github"
-      }, {
+        "type": "Leetcode",
+        "value": "https://leetcode.com/SharmaTanushree",
+        "isHidden": false,
+        "icon": "leetcode"
+      },  
+     {
         "type": "LinkedIn",
         "value": "https://www.linkedin.com/in/sharmatanushree1998",
         "isHidden": false,
@@ -41,11 +42,12 @@
         "value": "https://hackerrank.com/tanushreesharma3",
         "isHidden": false,
         "icon": "hackerrank"
-      }, {
-        "type": "Leetcode",
-        "value": "https://leetcode.com/SharmaTanushree",
+      }, 
+      {
+        "type": "GitHub",
+        "value": "https://github.com/SharmaTanushree",
         "isHidden": false,
-        "icon": "leetcode"
+        "icon": "github"
       }
     ],
     "image": {
@@ -70,7 +72,7 @@
       "location": "Pune, Maharashtra",
       "work": [
         {
-          "role": "System Engineer",
+          "role": "Software Engineer",
           "duration": {
             "from": "8 Feb, 2023",
             "to": "present"
@@ -82,12 +84,13 @@
               "responsibilities": [
                 "Developing and maintaining .NET applications using Angular and .NET",
                 "Writing clean, maintainable, and efficient code",
+                "Unit Testing using Jasmine-karma Framework",
                 "Debugging and resolving software defects and issues"
               ]
             }
           ],
           "description": [            
-            "Designing and implementing UI for web using UI and ASP.Net Core",
+            "Designing and implementing UI for web using Angular and ASP.Net Core",
             "Participating in agile development processes, such as sprint planning and daily stand-ups"
           ],
           "showDescription": true
@@ -141,13 +144,6 @@
                 "Experience of working on Azure Cloud Platform.",
                 "Used Azure Devops for Code Management.",
                 "Data Visualization using D3.js and Google charting library."
-              ]
-            }, {
-              "name": "T-Rux",
-              "technologies": ["Angular", "Git"],
-              "responsibilities": [
-                "Enhanced UX by providing the ability to integrate survey data into an SPA",
-                "Reduced finish time by 50% to create a complete task"
               ]
             }
           ],
@@ -249,22 +245,22 @@
     "skills": [
       {
         "rating": 5,
-        "technologies": ["Angular", "JS", "CSS", "HTML", "C"],
+        "technologies": ["Angular", "JS", "CSS", "HTML"],
         "info": "Excellent"
       },
       {
         "rating": 4,
-        "technologies": ["ASP.NET Core", "SQL", "Data Structures"],
+        "technologies": ["SQL", "Data Structure","Git","ASP.NET Core"],
         "info": "Very Good"
       },
       {
         "rating": 3,
-        "technologies": ["React", "Git", "Azure"],
+        "technologies": ["NodeJS", "Git"],
         "info": "Good"
       },
       {
         "rating": 2,
-        "technologies": ["MongoDB"],
+        "technologies": ["Azure"],
         "info": "Basic"
       }
     ],
@@ -287,7 +283,7 @@
       "certificates": true,
       "skills": true,
       "softwares": true,
-      "interests": true,
+      "interests": false,
       "languages": true
     }
   },
